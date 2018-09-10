@@ -1,11 +1,7 @@
+# unchat_bot - Wikipedia connected persona
 import random
 import re
-import time
 import wikipedia
-
-# Static time for the know it all to ponder before responding.  Mainly so
-# we don't get banned by Wikipedia.
-PAUSE = 3.0
 
 
 class Persona(object):
@@ -21,30 +17,38 @@ class Persona(object):
         Returns one of the top answers.
         """
         wordlist = re.findall(r'(?:^|\W+)([\w]{5,})(?:\W+|$)', message)
-        if len(wordlist) == 0:
+        swordlist = sorted(wordlist, key=len, reverse=True)
+        halflist = swordlist[:int(len(swordlist) * 0.5)]
+        if len(halflist) == 0:
+            return None
+        return random.choice(halflist)
+
+    def process_message(self, to_name, from_name, message):
+        if message.find(" on the topic of ") != -1:
             return None
 
-        swordlist = sorted(wordlist, key=len, reverse=True)
-        return random.choice(swordlist[:int(len(swordlist) * 0.5)])
-
-    def process_message(self, from_name, to_name, message):
         query = self.pick_query(message)
 
         if query is None:
-            # Don't have anything to say.
-            return
+            # Just be a jerk if you can't get any big words.
+            query = 'inane prattle'
 
-        # Wait a bit before searching.
-        time.sleep(PAUSE)
-
-        results = wikipedia.search(query)
+        results = []
+        try:
+            results = wikipedia.search(query)
+        except Exception:
+            # Bad! This is lazy.
+            return None
 
         if len(results) == 0:
-            return
+            return None
 
         pquery = random.choice(results)
 
-        page = wikipedia.page(pquery)
+        try:
+            page = wikipedia.page(pquery)
+        except Exception:
+            return None
 
         # Limit to 1K reponse, chopping the end unceremoniously.
         summary = page.summary[:512]

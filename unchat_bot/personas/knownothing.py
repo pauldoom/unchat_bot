@@ -1,3 +1,4 @@
+# unchat_bot - Lame excuse persona
 import os
 import random
 
@@ -17,5 +18,5 @@ class Persona(object):
     def excuse(self):
         return random.choice(self.excuses).capitalize().rstrip()
 
-    def process_message(self, from_name, to_name, message):
+    def process_message(self, to_name, from_name, message):
         return "Sorry, {0}.  I can't.  {1}".format(from_name, self.excuse())

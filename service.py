@@ -8,7 +8,7 @@ import sys
 
 # Lame non-dynamic list of persona classes to load
 PERSONAS = (
-    'echo',
+    'bleep',
     'knownothing',
     'knowitall'
 )
