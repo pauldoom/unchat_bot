@@ -1,0 +1,311 @@
+clock speed
+solar flares
+electromagnetic radiation from satellite debris
+static from nylon underwear
+static from plastic slide rules
+global warming
+poor power conditioning
+static buildup
+doppler effect
+hardware stress fractures
+magnetic interference from money/credit cards
+dry joints on cable plug
+we're waiting for [the phone company] to fix that line
+sounds like a Windows problem, calling Microsoft support
+temporary routing anomaly
+somebody was calculating pi on the server
+fat electrons in the lines
+excess surge protection
+floating point processor overflow
+divide-by-zero error
+POSIX compliance problem
+monitor resolution too high
+improperly oriented keyboard
+network packets travelling uphill (use a carrier pigeon)
+Decreasing electron flux
+first Saturday after first full moon in Winter
+radiosity depletion
+CPU radiator broken
+It works the way the Wang did, what's the problem
+positron router malfunction
+cellular telephone interference
+techtonic stress
+piezo-electric interference
+(l)user error
+working as designed
+dynamic software linking table corrupted
+heavy gravity fluctuation, move computer to floor rapidly
+secretary plugged hairdryer into UPS
+terrorist activities
+not enough memory, go get system upgrade
+interrupt configuration error
+spaghetti cable cause packet failure
+bank holiday - system operating credits  not recharged
+virus attack, luser responsible
+waste water tank overflowed onto computer
+Complete Transient Lockout
+bad ether in the cables
+Bogon emissions
+Change in Earth's rotational speed
+Cosmic ray particles crashed through the hard disk platter
+Little hamster in running wheel had coronary; waiting for replacement
+Evil dogs hypnotised the night shift
+Plumber mistook routing panel for decorative wall fixture
+Electricians made popcorn in the power supply
+high pressure system failure
+failed trials, system needs redesigned
+system has been recalled
+not approved by the FCC
+need to wrap system in aluminum foil to fix problem
+not properly grounded, please bury computer
+CPU needs recalibration
+system needs to be rebooted
+bit bucket overflow
+descramble code needed from software company
+only available on a need to know basis
+knot in cables caused data stream to become twisted and kinked
+nesting roaches shorted out the ether cable
+The file system is full of it
+Satan did it
+Daemons did it
+You're out of memory
+There isn't any problem
+Unoptimized hard drive
+Typo in the code
+design limitation
+Someone is standing on the ethernet cable, causing a kink in the cable
+Runt packets
+Password is too complex to decrypt
+Electromagnetic energy loss
+Budget cuts
+Mouse chewed through power cable
+Feature not yet implemented
+Internet outage
+Pentium FDIV bug
+Vendor no longer supports the product
+Small animal kamikaze attack on power supplies
+vendor put the bug there
+SIMM crosstalk
+IRQ dropout
+Collapsed Backbone
+Power company testing new voltage spike (creation) equipment
+UPS interrupted the server's power
+electricity substation in the car park blew up.
+monitor is plugged into the serial port
+Root nameservers are out of sync
+your keyboard's space bar is generating spurious keycodes.
+real ttys became pseudo ttys and vice-versa.
+printer thinks its a router
+router thinks its a printer
+we just switched to FDDI
+user to computer ratio too high
+user to computer ration too low
+Power Company having EMP problems with their reactor
+The ring needs another token
+SCSI Chain overterminated
+not plugged in
+because of network lag due to too many people playing deathmatch
+disk in upside down
+Daemons loose in system
+disks spinning backwards - toggled the hemisphere jumper
+new guy cross-connected phone lines with ac power bus
+had to use hammer to free stuck disk drive heads
+Too few computrons available
+Insert coin for new game
+Arcserve crashed the server again
+Big to little endian conversion error
+Zombie processes haunting the computer
+Incorrect time synchronization
+Defunct processes
+Stubborn processes
+non-redundant fan failure 
+monitor VLF leakage
+no "any" key on keyboard
+root rot
+excessive collisions & not enough packet ambulances
+le0: no carrier: transceiver cable problem?
+broadcast packets on wrong frequency
+popper unable to process jumbo kernel
+NOTICE: alloc: /dev/null: filesystem full
+pseudo-user on a pseudo-terminal
+Recursive traversal of loopback mount points
+Backbone adjustment
+OS swapped to disk
+vapors from evaporating sticky-note adhesives
+sticktion
+short leg on process table
+multicasts on broken packets
+ether leak
+Atilla the Hub
+endothermal recalibration
+filesystem not big enough for Jumbo Kernel Patch
+loop found in loop in redundant loopback
+system consumed all the paper for paging
+permission denied
+Reformatting Page. Wait...
+..disk or the processor is on fire.
+SCSI's too wide.
+Proprietary Information.
+runaway cat on system.
+kernel panic: write-only-memory (/dev/wom0) capacity exceeded.
+Recursivity.  Call back if it happens again.
+Someone thought The Big Red Button was a light switch.
+wrong polarity of neutron flow
+TCP/IP UDP alarm threshold set too low
+Plate voltage too low on demodulator tube
+CPU needs bearings repacked
+Too much radiation coming from the soil
+out of bits/bytes/whatever. Don't worry, new supply will be coming next week.
+Processes running slowly due to weak power supply
+Our ISP is having {switching,routing,SMDS,frame relay} problems
+We've run out of licenses
+Interference from lunar radiation
+Standing room only on the bus
+You need to install an RTFM interface.
+That would be because the software doesn't work.
+easy to fix, but I can't be bothered.
+We're upgrading /dev/null
+The Usenet news is out of date
+POP server was kidnapped by a weasel
+stuck in the Web
+modem doesn't speak English
+All of the packets are empty
+UPS is on strike
+Neutrino overload on the nameserver
+Melting hard drives
+Someone has messed up the kernel pointers
+The kernel license has expired
+Netscape has crashed
+Bit rot
+Flux Capacitor has gone bad
+Dilithium Crystals need to be rotated
+static electricity routing is acting up
+Traceroute says that there is a routing problem in the backbone. Not our problem
+High altitude condensation from U.S.A.F prototype aircraft has contaminated the primary subnet mask
+Electrons on a bender
+Telecommunications is upgrading
+Telecommunications is downgrading
+Telecommunications is downshifting
+Hard drive sleeping. Let it wake up on it's own...
+Interference between the keyboard and chair
+Due to the CDA, we no longer have a root account
+ran out of dial tone and we're and waiting for the phone company to deliver another bottle.
+must've hit the wrong any key.
+PCMCIA slave driver
+Too many interrupts
+Not enough interrupts
+data on your hard drive is out of balance
+Digital Manipulator exceeding velocity parameters
+appears to be a Slow/Narrow SCSI-0 Interface problem
+microelectronic Riemannian curved-space fault in write-only file system
+fractal radiation jamming the backbone
+routing problems on the neural net
+IRQ-problems with the Un-Interruptible-Power-Supply
+CPU-angle has to be adjusted because of vibrations coming from the nearby road
+emissions from GSM-phones
+firewall needs cooling
+asynchronous inode failure
+transient bus protocol violation
+incompatible bit-registration operators
+process is not ISO 9000 compliant
+Internet exceeded Luser level, please wait until a luser logs off before attempting to log back on.
+Scheduled global CPU outage
+POP server is out of Coke
+Fiber optics caused gas main leak
+Server depressed, needs Prozac
+quantum decoherence
+those damn raccoons!
+suboptimal routing experience
+We'll fix that in the next (upgrade, update, patch release, service pack).
+HTTPD Error 666 : BOFH was here
+HTTPD Error 4004 : very old Intel cpu - insufficient processing power
+rubber band broke
+Stray Alpha Particles from memory packaging caused Hard Memory Error on Server.
+paradigm shift...without a clutch
+PEBKAC (Problem Exists Between Keyboard And Chair)
+The cables are not the same length
+Second-system effect
+Chewing gum on /dev/sd3c
+Boredom in the Kernel.
+struck by the Good Times virus
+YOU HAVE AN I/O ERROR -> Incompetent Operator error
+Your parity check is overdrawn and you're out of cache.
+Plasma conduit breach
+Out of cards on drive D:
+Sand fleas eating the Internet cables
+parallel processors running perpendicular today
+ATM cell has no roaming feature turned on, notebooks can't connect
+Webmasters kidnapped by evil cult
+Failure to adjust for daylight savings time
+Virus transmitted from computer to sysadmins
+Incorrectly configured static routes on the corerouters
+Suspicious pointer corrupted virtual machine
+InterNIC's fault
+Root name servers corrupted
+Budget cuts - forced us to sell all power cords for servers
+operators killed by year 2000 bug bite
+robotic tape changer mistook operator's face for backup tape
+someone was smoking in the computer room and set off the halon systems
+ID-10-T error
+Please wait - Internet being scanned for viruses
+bad user karma
+/dev/clue was linked to /dev/null
+/dev/clue not found
+increased sunspot activity
+It's union rules. There's nothing we can do about it. Sorry
+Interference from the Van Allen Belt
+redundant ACLs
+Mail server hit by UniSpammer
+data for intranet routed through extranet then landed on internet
+Not a problem; it is an undocumented feature.
+Didn't hear pager go off due to loud music from bar-room speakers
+Sysadmin accidentally destroyed pager with a large hammer
+Route flapping at the NAP
+Computers under water due to SYN flooding
+vulcan-death-grip ping has been applied
+Electrical conduits in machine room are melting
+Traffic jam on the Information Superhighway
+Radial Telemetry Infiltration
+tachyon emissions overloading the system
+Maintenance window broken
+Out of slots on the server
+Computer room being moved.  Our systems are down for the weekend.
+Repeated reboots of the system failed to solve problem
+Feature was not beta tested
+Domain controller not responding
+Not RFC-822 compliant
+operation failed because: there is no message for this error (#1014)
+stop bit received
+network down, IP packets delivered via UPS
+Temporal anomaly
+Borg implants failing
+Borg nanites have infested the server
+Please state the nature of the technical emergency
+Internet shut down due to maintenance
+Daemon escaped from pentagram
+crop circles in the korn shell
+sticky bit has come loose
+Cache miss - please take better aim next time
+Hash table has woodworm
+Zombie processes detected, machine is haunted
+overflow error in /dev/null
+According to Microsoft, it's by design
+Green Peace free'd the mallocs
+astropneumatic oscillations in the water-cooling
+somebody ran the operating system through a spell checker
+Keyboard Actuator Failure.  Order and Replace
+Packet held up at customs
+Propagation delay
+High line impedance
+Someone set us up the bomb
+Power surges on the Underground
+Don't worry; it's been deprecated. The new one is worse.
+Excess condensation in cloud network
+layer 8 problem
+math co-processor had an overflow error that leaked out and shorted the RAM
+leaped the second
+you try to confuse
+you know damn right!
+Johnny Cage wins.  Fatality
+Error Code: SBG
+Error Code: RGT

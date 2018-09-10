@@ -1,0 +1,19 @@
+# Used for dev and testing
+version: '3.3'
+
+services:
+  unchat_queue:
+    container_name: unchat_queue
+    image: rabbitmq:3.7-alpine
+    ports:
+      - 5672
+      - 15671
+  unchat_bot:
+    container_name: unchat_bot
+    build:
+      context: ./
+    image: unchat_bot
+    environment:
+      - 'AMQP_URI=amqp://guest:guest@unchat_queue:5672/'
+    depends_on:
+      - unchat_queue
