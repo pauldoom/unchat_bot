@@ -36,7 +36,7 @@ class Broker(object):
 
         # Create our queue
         self.queue_resource = self.channel.queue_declare(
-            queue=self.queue_name, durable=False, auto_delete=True)
+            queue="unchat_" + self.queue_name, durable=False, auto_delete=True)
 
         # Ensure the exchange exists
         self.exchange_name = exchange_name
@@ -93,8 +93,9 @@ class Broker(object):
             message = message.decode('utf-8')
 
         if self.print_received is True:
-            print("[{0}] << <{1}>: {2}".format(self.timestamp(), from_name,
-                                               message))
+            print("{0} [{1} <- {2}] {3}".format(self.timestamp(), 
+                                                to_name, from_name,
+                                                message))
 
         response = self.message_processor(to_name=to_name, from_name=from_name,
                                           message=message)
@@ -112,8 +113,9 @@ class Broker(object):
             # Wait a bit
             time.sleep(random.random() * self.wait_max)
 
-        print("[{0}] >> <{1}>: {2}".format(self.timestamp(), to_name,
-                                           response))
+        print("{0} [{1} -> {2}] {3}".format(self.timestamp(), 
+                                            to_name, from_name,
+                                            response))
 
         if type(response) is str:
             response = response.encode()
@@ -151,7 +153,8 @@ class Broker(object):
         """
         Start listening
         """
-        self.channel.basic_consume(self.consume, queue=self.queue_name,
+        self.channel.basic_consume(self.consume, 
+                                   queue=self.queue_resource.method.queue,
                                    no_ack=True)
         self.channel.start_consuming()
 

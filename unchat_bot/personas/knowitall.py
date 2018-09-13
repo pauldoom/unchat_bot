@@ -31,7 +31,8 @@ class Persona(object):
 
         if query is None:
             # Just be a jerk if you can't get any big words.
-            query = 'inane prattle'
+            # query = 'inane prattle'
+            return "I guess I don't have much to add on that..."
 
         results = []
         try:

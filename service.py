@@ -31,19 +31,20 @@ def main():
     persona_type = random.choice(list(PERSONA_LIBS.keys()))
     persona = PERSONA_LIBS[persona_type].Persona(my_name=my_name)
 
-    broke = Broker(my_name=my_name,
-                   message_processor=persona.process_message,
-                   amqp_uri=amqp_uri)
+    broker = Broker(my_name=my_name,
+                    message_processor=persona.process_message,
+                    amqp_uri=amqp_uri,
+                    print_received=True)
 
     print("My name is {0} and I am a {1} bot".format(my_name, persona.persona))
 
     # Go.
     while True:
         try:
-            broke.start_consuming()
+            broker.start_consuming()
         except (KeyboardInterrupt, EOFError):
             print("\nAHHHH! YOU KILLED ME!")
-            broke.stop_consuming()
+            broker.stop_consuming()
             sys.exit(0)
 
 if __name__ == '__main__':
