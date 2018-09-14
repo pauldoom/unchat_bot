@@ -4,8 +4,9 @@ import random
 
 
 class Persona(object):
-    persona = 'knownothing'
-    description = 'Know Nothing the Excuse Bot'
+    persona = 'helpy'
+    description = 'Helpy: The UnChat helpdesk bot'
+    greeting = 'wassup'
 
     def __init__(self, my_name, excuse_file=None):
         self.my_name = my_name
@@ -19,4 +20,10 @@ class Persona(object):
         return random.choice(self.excuses).capitalize().rstrip()
 
     def process_message(self, to_name, from_name, message):
-        return "Sorry, {0}.  I can't.  {1}".format(from_name, self.excuse())
+        catches = [
+            'Obvious.  ',
+            'I have found the issue: ',
+            'Page 452 of the manual clearly states: ',
+            'Sorry.  There is no way to fix it.  '
+        ]
+        return random.choice(catches) + self.excuse() + '.'

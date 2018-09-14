@@ -6,8 +6,9 @@ import time
 
 
 class Broker(object):
-    def __init__(self, my_name, message_processor, exchange_name='unchat',
-                 amqp_uri=None, print_received=False):
+    def __init__(self, my_name, message_processor, amqp_uri=None,
+                 exchange_name='unchat', greeting='Hi.', wait_max=2.0,
+                 respond_all_percent=50, print_received=False):
         """
         Setup a new message broker.
 
@@ -52,13 +53,16 @@ class Broker(object):
 
         # To prevent spam-death, upon reception of a message for All we will
         # wait up to this number of seconds before proceeding.
-        self.wait_max = 10.0
+        self.wait_max = wait_max
 
         # Set probability of responding to an All
-        self.respond_all_percent = 20
+        self.respond_all_percent = respond_all_percent
 
         # Set to True to get messages we receive sent to STDOUT.
         self.print_received = print_received
+
+        # Say hi!
+        self.produce('all.' + self.queue_name, greeting)
 
     def timestamp(self):
         return datetime.datetime.now().isoformat().split('.', 1)[0]
@@ -93,7 +97,7 @@ class Broker(object):
             message = message.decode('utf-8')
 
         if self.print_received is True:
-            print("{0} [{1} <- {2}] {3}".format(self.timestamp(), 
+            print("{0} [{1} <- {2}] {3}".format(self.timestamp(),
                                                 to_name, from_name,
                                                 message))
 
@@ -113,7 +117,11 @@ class Broker(object):
             # Wait a bit
             time.sleep(random.random() * self.wait_max)
 
-        print("{0} [{1} -> {2}] {3}".format(self.timestamp(), 
+        if to_name == "All":
+            to_name = self.my_name
+            from_name = "All"
+
+        print("{0} [{1} -> {2}] {3}".format(self.timestamp(),
                                             to_name, from_name,
                                             response))
 
@@ -153,7 +161,7 @@ class Broker(object):
         """
         Start listening
         """
-        self.channel.basic_consume(self.consume, 
+        self.channel.basic_consume(self.consume,
                                    queue=self.queue_resource.method.queue,
                                    no_ack=True)
         self.channel.start_consuming()

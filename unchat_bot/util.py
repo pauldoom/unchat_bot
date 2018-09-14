@@ -1,6 +1,6 @@
 import requests
 
-NAMER_URI = 'http://namey.muffinlabs.com/name.json?with_surname=true'
+NAMER_URI = 'https://namey.muffinlabs.com/name.json?frequency=all'
 
 
 def get_random_name(namer_uri=NAMER_URI):
