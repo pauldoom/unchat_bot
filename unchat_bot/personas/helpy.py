@@ -26,4 +26,5 @@ class Persona(object):
             'Page 452 of the manual clearly states: ',
             'Sorry.  There is no way to fix it.  '
         ]
-        return random.choice(catches) + self.excuse() + '.'
+        return random.choice(catches) + self.excuse() + ".  I've closed your ticket."
+

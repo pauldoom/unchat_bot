@@ -18,6 +18,8 @@ RUN pip install --upgrade pip \
 COPY service.py service.py
 COPY unchat_bot/ unchat_bot/
 
+RUN chmod -R a+r unchat_bot
+
 # Run as Snake
 USER snake
 
